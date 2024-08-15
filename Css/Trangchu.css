@@ -1,0 +1,120 @@
+.Danhmuc__product {
+  height: 47rem;
+  /* background-color: grey; */
+}
+
+#left {
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.Danhmuc__product--sanpham {
+  position: relative;
+}
+
+.preproduct {
+  left: 0rem;
+  top: 32%;
+  opacity: 0.3;
+}
+
+.con_product {
+  width: 96.5%;
+}
+.nextprocuct {
+  right: 0;
+  top: 32%;
+}
+
+.Danhmuc__product--sale > a {
+  width: 100%;
+  display: block;
+}
+
+.Danhmuc__product--sale > a > img {
+  width: 95%;
+  object-fit: contain;
+}
+
+.listsles:hover img {
+  transition: all 0.5s ease;
+  transform: scale(1.15);
+}
+
+.Sanpham {
+  position: relative;
+}
+
+.Sanpham:hover .Sanpham__image > img {
+  transform: scale(1.25);
+}
+
+.Sanpham__image {
+  border-radius: 5px;
+  width: 95%;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.Sanpham__image > img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.Sanpham__title {
+  height: 5rem;
+  width: 100%;
+}
+
+.Sanpham__title > h2 {
+  overflow: hidden;
+  height: 36px;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  line-height: 2rem;
+  width: 95%;
+}
+
+.Sanpham__price {
+  height: 5rem;
+}
+
+.Sanpham__price--new {
+  color: #cd151c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Sanpham__price--old {
+  text-decoration: line-through;
+  position: relative;
+  font-size: 14px;
+  color: #8a8a8f;
+  line-height: 17px;
+  display: inline;
+}
+
+.Danhmuc__title {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.Danhmuc__title > h3 {
+  color: #11006f;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#Danhmuc {
+  margin-bottom: 5rem;
+}
+
+a {
+  color: #122;
+}
